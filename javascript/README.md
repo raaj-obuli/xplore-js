@@ -1,7 +1,7 @@
-Javascript Learning Plan
+# Javascript Learning Plan
 
 
-Variables
+## Variables
 - var, let, const
 - variable/function hoisting, temporal dead zone
 - access varialbe across window
