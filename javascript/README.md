@@ -1,57 +1,57 @@
 # Javascript Learning Plan
 
 
-## Variables
+** Variables **
 - var, let, const
 - variable/function hoisting, temporal dead zone
 - access varialbe across window
 
 
-Array
+** Array **
 - extra comma and trailing comma (ES7)
 
 
-Number
+** Number **
 - decimal, octal, hexa, binary, floting point representation
 
 
-String
+** String **
 - Template literal - multi-line, string interpolation, 
 
 
-Control Flow
+** Control Flow **
 - if-else - truthy and falsy values
 
 
-Exception Handling
+** Exception Handling **
 - try-catch-finally, throw
 - nested try-catch
 - Error Object
 
 
-Loops
+** Loops **
 - for, while, do..while
 - break, continue, label statement
 - for..in
 - for..of
 
 
-Functions
+** Functions **
 - function declaration/expression
 - default arguments
 - rest parameter vs arguments
 - closure
 
 
-Array
+** Array **
 - Array(), Array.of()
 - forEach(), map(), concat(), slice(), splice(), every(), reduce(), 
 
 
-ArrayBuffer
+** ArrayBuffer **
 
 
-Object
+** Object **
 - Object literal - __proto__, shorthand assignment, super, dynamic key, constuctor, Object.create(), Object.defineProperties()
 - new.target
 - getter, setter
@@ -60,31 +60,34 @@ Object
 - globalThis
 
 
-Map & WeakMap
+** Map & WeakMap **
 
 
-Set & WeakSet
+** Set & WeakSet **
 
 
-Promise
+** Promise **
+- new Promise()
+- then(), catch(), finally(), resolve(), reject()
+- Promise.all(), Promise.allSettled(), Promise.any(), Promise.race()
 
 
-Iterators
+** Iterators **
 
 
-Iterables
+** Iterables **
 
 
-Generator functions
+** Generator functions **
 
 
-Proxy
+ ** Proxy **
 
 
 Reflect
 
 
-Modules
+** Modules **
 - <script type="module" />
 - import, export, default, as
 - module object
@@ -92,9 +95,9 @@ Modules
 - dynamic module loading
 
 
-Memory Management
+** Memory Management **
 
 
-Async Functions
+** Async Functions **
 - async, await
 - for await...of
