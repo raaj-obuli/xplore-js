@@ -72,10 +72,7 @@
 - Promise.all(), Promise.allSettled(), Promise.any(), Promise.race()
 
 
-**Iterators**
-
-
-**Iterables**
+**Iterators && Iterables**
 
 
 **Generator functions**
@@ -84,7 +81,7 @@
 **Proxy**
 
 
-Reflect
+**Reflect**
 
 
 **Modules**
