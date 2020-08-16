@@ -15,16 +15,25 @@ let promiseB = getPromise(4000);
 
 promiseB
  .then(data => {
-     console.log('promiseB:: 1nd then():', data);
+     console.log('promiseB::then() stage: 1 ', data);
 
      return 'tic';
+     // then() returns a Promise that is resolve with the return value of this function
+     // promise object is constructed internally
+     // ex. Promise.resolve('tic')
  })
- .then(foo => {
-    // this then() is 
-    console.log('promiseB:: 2nd then():', foo);
+ .then((foo) => {
+   console.log('promiseB::then() stage: 2 ', foo);
 
-    return 'tac';
+   return Promise.resolve('tac');
+   // then() returns a Promise, unlike previous one the promise is created explicitly
  })
  .then(bar => {
-    console.log('promiseB:: 3rd then():', bar);
+    console.log('promiseB::then() stage: 3 ', bar);
+
+    return getPromise(2000, 'Hulk');
+    // this then() returns a "new Promise()" created by the getPromise()
+ })
+ .then(bla => {
+    console.log('promiseB::then() stage: 4 ', bla);
  })

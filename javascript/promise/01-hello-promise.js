@@ -26,3 +26,15 @@ lazyBoy
         // 'error' is the error message received from the reject() call of the promise
         console.error(error);
     })
+
+// create resolved promise with the value passed as argument
+Promise.resolve(10)
+    .then((data) => {
+        console.log('Promise.resolve(10):: ', data);
+    })
+
+// creates a rejected promise with the error message passed as argument
+Promise.reject(new Error('Some Error'))
+    .catch((error) => {
+        console.error(error);
+    })
