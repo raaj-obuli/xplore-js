@@ -72,8 +72,11 @@
 - Promise.all(), Promise.allSettled(), Promise.any(), Promise.race()
 
 
-**Iterators, Iterables, Generator**
+**Iterators, Iterables**
 - [Symbol.iterator](), next()
+
+
+**Generator**
 - function*, yield, yield*
 
 
